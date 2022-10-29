@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     submitChoice.addEventListener('click', () => {
         console.log("user submit choice");
         if (sessionStorage.getItem('choiceUser') != null) {
-            window.location.pathname = '/dev/interactive-rating-component-main/index1.html';
+            window.location.pathname = '/interactive-rating-component-main/index1.html';
         }
 
     })
